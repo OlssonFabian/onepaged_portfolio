@@ -1,0 +1,177 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body {
+	background-color: $background;
+	color:white;
+	#accordion-usps{
+		 div:nth-child(1){
+			 background-color: black;
+			 h2 > button{
+				 color:white;
+			 }
+		 }
+		 margin-top:-25vh;
+		 margin-bottom:5vh;
+	}
+	#portfolio-container{
+		background-color: black;
+	}
+}
+header > h2{
+	font-size: 1em;
+}
+
+#wrapper-navbar > nav > div > a{
+	font-size: 1.5em;
+	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 0.1em;
+}
+
+#wrapper-hero{
+	width: auto;
+	height: 90vh;
+	background: rgb(76,76,76);
+	background: -moz-linear-gradient(-45deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 100%, rgba(0,0,0,1) 100%, rgba(28,28,28,1) 100%, rgba(19,19,19,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 100%,rgba(0,0,0,1) 100%,rgba(28,28,28,1) 100%,rgba(19,19,19,1) 100%);
+	background: linear-gradient(135deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 100%,rgba(0,0,0,1) 100%,rgba(28,28,28,1) 100%,rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );
+}
+	#title-container{
+		padding-top:1rem;
+	}
+
+	p{
+		color: white;
+	}
+	img{
+		width: 98%;
+		height: 98%;
+		margin-top: 1rem;
+		justify-self: auto;
+		object-fit: contain;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.logo{
+		width: 30%;
+		height: 30%;
+		position: absolute;
+  		top: 14rem;
+  		left: 37%;
+  		text-align: center;
+	}
+	  /*
+		##Device = Laptops, Desktops
+		##Screen = B/w 1025px to 1280px
+	  */
+
+@media (min-width: 1281px) {
+	#wrapper-hero{
+		width: auto;
+		height: 100vh;
+		background-color: $background;
+
+			img{
+				width: 98%;
+				height: 98%;
+				margin-top: 4rem;
+				justify-self: auto;
+				object-fit: contain;
+				position: relative;
+				top: 0;
+				left: 0;
+			}
+			.logo{
+				width: 30%;
+				height: 30%;
+				position: absolute;
+				top: 34rem;
+				left: 35%;
+				text-align: center;
+			}
+	  }
+	  h2.work-category{
+		font-size: 2em;
+		margin-top: 10vh;
+		text-align: center;
+	}
+}
+
+
+h2.work-category{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10vh;
+	background-color: black;
+	}
+
+
+
+#accordion-usps{
+	width: 100vw;
+}
+
+#wrapper-usps > div{
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#main > nav > div {
+	span.nav-next > a{
+		color: white;
+	}
+	span.nav-previous > a{
+		color: white;
+	}
+}
+
+.us_portfolio{
+	height: auto;
+}
+
+.entry-title{
+	color:white;
+}
+.entry-content{
+	color:white;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+	img{
+		width: 98%;
+		height: 98%;
+		margin-top: 4rem;
+		justify-self: auto;
+		object-fit: contain;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.logo{
+		width: 30%;
+		height: 30%;
+		position: absolute;
+		top: 15rem;
+		left: 32rem;
+		text-align: center;
+	}
+	#accordion-usps{
+		margin-top: 50vh;
+	}
+ }
+
+#contact-me{
+	font-size: 2em;
+	text-align: center;
+	margin-top: 10vh;
+	background-color: black;
+}
+
+.wpcf7 input[type="submit"] {
+    color: #ffffff;
+    background: black;
+}
